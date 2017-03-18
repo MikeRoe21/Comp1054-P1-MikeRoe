@@ -1,0 +1,111 @@
+/* validated at https://jigsaw.w3.org/css-validator/ */
+@charset "UTF-8";
+
+/* setting font for page */
+html{
+	font-family:verdana,serif;
+}
+header p{
+	margin-top: 5px;
+	text-transform: uppercase;
+}
+
+header h1{
+	color:#ef5001;
+	font-size: 100px;
+	text-align: center;
+	margin:100px;
+}
+
+header p{
+position: relative;
+margin-top:5px;
+}
+
+body{
+	width: 80%;
+	margin: 0 auto;
+}
+
+main ol li{
+	margin-left:30px;
+}
+
+main img{
+	height:700px;
+	width:400px;
+}
+
+main section{
+	width: 50%;
+	padding: 10px;
+	float: right;
+}
+
+main section p{
+	text-align: left;
+}
+
+/* classes are the easiest to work with */
+.side{
+	display: inline;
+}
+.green{
+		border-top: 25px solid #20B020;
+}
+
+.green h3{
+	color:#20B020;
+	text-transform: uppercase;
+}
+
+.pink{
+	border-top: 25px solid #D70F9D;
+}
+
+.pink h3{
+	color:#D70F9D;
+	text-transform: uppercase;
+}
+
+.cyan{
+	border-top: 25px solid #169BB0;
+}
+
+.cyan h3{
+	color:#169BB0;
+	text-transform: uppercase;
+}
+
+main aside{
+	width: 50%;
+}
+
+.orange{
+	border: 2px solid orange;
+	width:40%;
+	text-align: center;
+	font-weight: bold;
+	margin-left: 40px;
+}
+
+.orange h2{
+	text-align: left;
+}
+
+
+#uppercase{
+	text-transform: uppercase;
+}
+
+.vertical{
+	transform: rotate(270deg);
+	transform-origin: left 100px;
+	float: left;
+}
+
+footer{
+ text-align: right;
+ text-transform: uppercase;
+ clear: both;
+}
